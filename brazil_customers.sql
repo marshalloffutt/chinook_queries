@@ -1,3 +1,3 @@
-Select c.FirstName, c.CustomerId, c.Country
+Select *
 From dbo.Customer as c
 Where c.Country = 'Brazil'
