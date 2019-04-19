@@ -1,5 +1,5 @@
 --top_2009_agent.sql: Which sales agent 
---made the most in sales in 2009? HINT: MAX
+--made the most in sales in 2009? HINT:Â MAX
 
 select Top 1 max(i.total) as TotalSales, e.[FirstName] + ' ' + e.[LastName] SalesRep
 from Employee e
