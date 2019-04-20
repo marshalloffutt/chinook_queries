@@ -13,4 +13,4 @@ group by e.FirstName, e.LastName
 
 select max(TotalSales), SalesRep
 from #sales
-group by SalesRep
+group by TotalSales, SalesRep
