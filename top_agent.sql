@@ -6,3 +6,4 @@ join Customer c on c.SupportRepId = e.EmployeeId
 join Invoice i on i.CustomerId = c.CustomerId
 where e.Title = 'Sales Support Agent'
 group by e.FirstName, e.LastName
+order by TotalSales desc
